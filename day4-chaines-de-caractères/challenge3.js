@@ -9,6 +9,6 @@ function inverserChaine(chaine) {
   return resultat;
 }
 
-let chaine = prompt("Entrez une chaîne :");
+let phrase = prompt("Entrez une Phrase :");
 
-console.log(inverserChaine(chaine));
+console.log(inverserChaine(phrase));

@@ -6,12 +6,17 @@ function compterVoyelles(chaine){
             chaine[i] === "o" ||
             chaine[i] === "u" ||
             chaine[i] === "e" ||
-            chaine[i] === "y" )
-            {
-            compteur++;}
-
+            chaine[i] === "i" ||
+            chaine[i] === "y" ||
+            chaine[i] === "A" ||
+            chaine[i] === "O" ||
+            chaine[i] === "U" ||
+            chaine[i] === "E" ||
+            chaine[i] === "I" ||
+            chaine[i] === "Y")
+            { compteur++;}
     }
     return compteur;
 }
-let chaine = prompt("Entrez Le Text :");
-console.log(compterVoyelles(chaine));
+let texte = prompt("Entrez Le Texte :");
+console.log(compterVoyelles(texte));
